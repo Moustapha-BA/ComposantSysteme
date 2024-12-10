@@ -24,6 +24,10 @@ function writeData(data) {
 router.post('/checksum', (req, res) => {
   const { input_string, algorithm = 'sha256' } = req.body;
 
+  if (!input_string) {
+    return res.status(400).json({ error: 'Input string is required' });
+  }
+
   try {
     const hash = crypto.createHash(algorithm).update(input_string).digest('hex');
     const data = readData();
