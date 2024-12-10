@@ -12,6 +12,6 @@ Naviguez dans le répertoire racine de votre projet  (ex: cd /checksum-appli)
 
 ##Tests en local
 * $npm start //se situant dans le répertoire /backend
-Accès backend via un navigateur: http://localhost:5000/api/checksums
+Accès backend via un navigateur: http://localhost:5001/api/checksums
 * Ouvrir un autre terminal et taper  $python3 -m http.server 3000 
 Accès frontend: Accéder à http://localhost:3000
