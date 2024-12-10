@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checksum Application</title>
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <h1>Checksum Application</h1>
+
+  <form id="checksumForm">
+    <input type="text" id="inputString" placeholder="Enter string" required>
+    <select id="algorithm">
+      <option value="sha256">SHA-256</option>
+      <option value="md5">MD5</option>
+      <option value="sha1">SHA-1</option>
+    </select>
+    <button type="submit">Calculate</button>
+  </form>
+
+  <p id="message"></p>
+
+  <h2>Checksum List</h2>
+  <ul id="checksumList"></ul>
+</body>
+</html>

@@ -1,0 +1,13 @@
+{
+  "name": "checksum-backend",
+  "version": "1.0.0",
+  "main": "app/app.js",
+  "scripts": {
+    "start": "node app/app.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "body-parser": "^1.19.0",
+    "crypto": "^1.0.1"
+  }
+}
