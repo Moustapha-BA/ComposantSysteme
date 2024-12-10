@@ -7,8 +7,8 @@ Le projet est réalisé en
 
 Conteneurisation:
 Naviguez dans le répertoire racine de votre projet  (ex: cd /checksum-appli)
-$docker-compose build
-$docker-compose up -d
+* $docker-compose build
+* $docker-compose up -d
 
 Accès backend: http://localhost:5000/api/checksums
 Accès frontend: Accéder à http://localhost:3000
