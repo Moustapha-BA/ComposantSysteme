@@ -1,14 +1,17 @@
 ######### Fichier README  ###############
 
 Le projet est réalisé en 
-* Frontend: avec un fichier HMTL + JavaScript
+* Frontend: avec du HMTL et JavaScript
 * Backend: NodeJs est utilisé
-* Base de données fichier: data.json
+* Base de données en fichier: data.json
 
 Conteneurisation:
 Naviguez dans le répertoire racine de votre projet  (ex: cd /checksum-appli)
 * $docker-compose build
 * $docker-compose up -d
 
-Accès backend: http://localhost:5000/api/checksums
+##Tests en local
+* $npm start //se situant dans le répertoire /backend
+Accès backend via un navigateur: http://localhost:5000/api/checksums
+* Ouvrir un autre terminal et taper  $python3 -m http.server 3000 
 Accès frontend: Accéder à http://localhost:3000
