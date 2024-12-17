@@ -6,7 +6,7 @@ Le projet est réalisé en
 * Base de données en fichier: data.json
 
 Conteneurisation:
-Naviguez dans le répertoire racine du projet où se trouve le fichier d'extension ".yml" et contenant les sous-répertoires /backend et /frontend.
+Naviguez dans le répertoire racine du projet où se trouve le fichier d'extension "docker-compose.yml" et contenant les sous-répertoires /backend et /frontend.
 * Taper les commandes suivantes:
 * $docker-compose build
 * $docker-compose up -d
