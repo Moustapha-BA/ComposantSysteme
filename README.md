@@ -17,5 +17,10 @@ Naviguez dans le répertoire racine du projet où se trouve le fichier d'extensi
 * * $npm start 
 * * Accéder au backend via un navigateur avec le lien suivant pour voir la liste des checksums (vide au début: []): http://localhost:5001/api/checksums
 * Ouvrir un autre terminal et taper dans le répertoire /frontend
+* * npm init -y
 * * $python3 -m http.server 3000
 * * Accéder au formulaire via le lien: http://localhost:3000
+* Apperçu de l'application
+  
+![image](https://github.com/user-attachments/assets/0c440af4-0299-474c-8060-04a332b6639c)
+
